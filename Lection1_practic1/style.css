@@ -1,0 +1,21 @@
+﻿body
+{
+    
+}
+
+table {
+    width: 100%;
+    height: 300px;
+    border-spacing: 0;
+}
+table td {
+    border: 1px solid;
+    padding: 0;
+    
+}
+
+img{
+    margin:0 auto;
+    width:100px;
+    height:100px;
+}
