@@ -1,0 +1,36 @@
+﻿h2 {
+    padding:3px 50px;
+}
+h3 {
+    padding:3px 70px;
+}
+table {
+    border-spacing: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.2em; 
+   
+}
+    table th {
+        border: 1px solid;
+        height: 10px;
+    }
+.yea {
+    text-align: left;
+    padding-left:50px;
+    font-size:1.5em;
+}
+.numer {
+    width: 200px;
+    text-align: left;
+    
+}
+thead {
+    background-color:cornflowerblue;
+}
+.light {
+    background-color: aquamarine;
+}
+.dark {
+    background-color: aqua;
+}
