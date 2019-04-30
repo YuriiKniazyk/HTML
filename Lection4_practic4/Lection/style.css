@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    height: 635px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 300px;
+    background: red;
+    display: flex;
+
+}
+.logo1 {
+    width: 250px;
+    background: yellow;
+    height: 50px;
+    margin: 25px 0;
+    
+}
+.logo2 {
+    background: rebeccapurple;
+    height: 50px;
+    width: 200px;
+    margin: 25px 0;
+    flex-grow: 1;
+}
+p {
+    padding: 0 50px;
+}
+
+main {
+    background: whitesmoke;
+    height: 100%;
+    display: flex;
+    padding: 100px 0;
+}
+.colum1 {
+    width: 300px;
+    background: rosybrown;
+    height: 75%;
+}
+.colum2 {
+    background: whitesmoke;
+    height: 75%;
+    flex-grow: 1;
+}
+.colum3 {
+    width: 300px;
+    background: orange;
+    height: 75%;
+}
+span {
+    text-align: center;
+    padding: 0 100px;
+}
+
+footer {
+    height: 300px;
+    background: blue;
+    display: flex;
+}
+.col1 {
+    margin: 25px 0;
+    height: 50px;
+    padding: 0 100px;
+    background: violet;
+    flex-grow: 1;
+}
+.col2 {
+    margin: 25px 0;
+    height: 50px;
+    padding: 0 100px;
+    background: green;
+    flex-grow: 1;
+}
+.col3 {
+    margin: 25px 0;
+    height: 50px;
+    padding: 0 100px;
+    background: greenyellow;
+    flex-grow: 1;
+}
+.col4 {
+    margin: 25px 0;
+    height: 50px;
+    padding: 0 100px;
+    background: rebeccapurple;
+    flex-grow: 1;
+}
