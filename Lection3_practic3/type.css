@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+li {
+    
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.syl {
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 60px;
+}
+.syl:after {
+    content: " 🠇"
+}
+
+a {
+    color: white;
+}
+
+.syl1 {
+    width: 50px;
+}
+
+.hei {
+    width: 50px;
+    position: absolute;
+    display: none;
+     
+}
+
+li:hover .hei {
+    display: block;
+    margin: 5px -10px;
+}
+
+.but {
+    background: blue;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+
